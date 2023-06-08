@@ -15,7 +15,7 @@ int main(){
         cout<<temp->A<<endl;
         temp=temp->next;
     }
-    u8  string_temp[] = {5,3,66,44,33,22,11};
+    u8  string_temp[] = {72,101,108,108,111,33,0};
     printf_char(string_temp);
 }
 
