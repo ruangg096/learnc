@@ -1,9 +1,9 @@
 #include<iostream>
 #include<vector>
-#include"cat.h"
-#include"dog.h"
-#include"Lnode.h"
-
+#include"animal_class/cat.h"
+#include"animal_class/dog.h"
+#include"data_struct/Lnode.h"
+#include"useful_tools/useful_function.h"
 
 int main(){
     Ltree_class L1;
@@ -15,5 +15,7 @@ int main(){
         cout<<temp->A<<endl;
         temp=temp->next;
     }
+    u8  string_temp[] = {5,3,66,44,33,22,11};
+    printf_char(string_temp);
 }
 
