@@ -4,7 +4,7 @@
             "name": "(gdb) 启动",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${workspaceRoot}/src/Main",
+            "program": "${workspaceRoot}/small_project",
             "args": [],
             "stopAtEntry": false,
             "cwd": "${workspaceRoot}",
